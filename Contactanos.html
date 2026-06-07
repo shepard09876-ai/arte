@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CONTACTANOS</title>
+<style type="text/css">
+/* Centrado de los botones del menú superior */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.INICIO, .HISTORIA, .SIMBOLOGIA, .CATÁLOGO, .CONTACTANOS {
+    background-color: #00FF93;
+}
+.TEX {
+    position: absolute;
+    left: 91px;
+    top: 90px;
+    width: 846px;
+}
+.NOMBRE {
+    position: absolute;
+    left: 173px;
+    top: 223px;
+}
+.CORREO {
+    position: absolute;
+    left: 173px;
+    top: 304px;
+}
+.APE {
+    position: absolute;
+    left: 571px;
+    top: 222px;
+}
+.ASUNTO {
+    position: absolute;
+    left: 571px;
+    top: 305px;
+    width: 271px;
+}
+.MENSAJE {
+    position: absolute;
+    left: 255px;
+    top: 390px;
+    height: 115px;
+    width: 573px;
+}
+/* Contenedor para los dos botones del formulario */
+.BOTONES-ACCION {
+    position: absolute;
+    left: 450px;
+    top: 540px;
+    display: flex;
+    gap: 15px;
+}
+.IMAGEN-MAPA {
+    position: absolute;
+    left: 16px;
+    top: 600px;
+    width: 944px;
+    height: 404px;
+}
+/* Estilo ordenado del pie de página */
+.PIE-DE-PÁGINA {
+    background-color: #FF01DE;
+    position: absolute;
+    left: 16px;
+    top: 1020px;
+    width: 1002px;
+    padding: 15px 0;
+    font-family: sans-serif;
+}
+.TEXTO-CENTRADO {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+.CONTENEDOR-CONTACTO {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ITEM-CONTACTO {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.TEXTO-DERECHA {
+    text-align: right;
+    width: 100%;
+    display: block;
+    margin: 10px 0 0 0;
+    padding-right: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+</style>
+</head>
+    
+<body bgcolor="#FFF3A4">
+
+<nav>
+    <a href="Index.html"><input type="button" class="INICIO" value="INICIO"></a>
+    <a href="Historia.html"><input type="button" class="HISTORIA" value="HISTORIA"></a>
+    <a href="Simbologia.html"><input type="button" class="SIMBOLOGIA" value="SIMBOLOGIA"></a>
+    <a href="Catálogo.html"><input type="button" class="CATÁLOGO" value="CATÁLOGO"></a>
+    <a href="Contactanos.html"><input type="button" class="CONTACTANOS" value="CONTACTANOS"></a>
+</nav>
+
+<div class="TEX">
+    <div class="TEXTO4">
+        <p style="text-align: justify;">Contáctanos para conocer más sobre nuestros productos escolares y responder tus dudas respecto a algunos productos de interés.</p>
+    </div>
+</div>
+
+<form id="form1" name="form1" method="post">
+    
+    <div class="NOMBRE">
+        <label for="textfield">NOMBRE:</label>
+        <input type="text" name="textfield" id="textfield">
+    </div>
+    
+    <div class="APE">
+        <label for="textfield2">APELLIDO:</label>
+        <input type="text" name="textfield2" id="textfield2">
+    </div>
+    
+    <div class="CORREO">
+        <label for="email">CORREO ELECTRÓNICO:</label>
+        <input type="email" name="email" id="email">
+    </div>
+    
+    <div class="ASUNTO">
+        <label for="textfield3">ASUNTO:</label>
+        <input type="text" name="textfield3" id="textfield3">
+    </div>
+    
+    <div class="MENSAJE">
+        <label for="textfield4">MENSAJE:</label><br>
+        <textarea name="textfield4" id="textfield4" cols="70" rows="4" maxlength="89"></textarea>
+    </div>
+      
+    <div class="BOTONES-ACCION">
+        <input type="submit" name="submit" id="submit" value="Enviar">
+        <input type="reset" name="reset" id="reset" value="Borrar">
+    </div>
+    
+</form>
+
+<div class="IMAGEN-MAPA"><img src="imagen/MAPA.png" width="979" height="400" alt=""/></div>
+
+<footer class="PIE-DE-PÁGINA">
+  <p class="TEXTO-CENTRADO">CONSULTANOS</p>
+    
+    <div class="CONTENEDOR-CONTACTO">
+        <div class="ITEM-CONTACTO">
+            <img src="imagen/OIP-_2_.png" width="40" height="29" alt="Facebook"/>
+            <span>Cecyteo Emsad Itunyoso</span>
+        </div>
+        <div class="ITEM-CONTACTO">
+            <img src="imagen/OIP-_3_.png" width="42" height="34" alt="Teléfono"/>
+            <span>953 114 3443</span>
+        </div>
+        <div class="ITEM-CONTACTO">
+            <img src="imagen/OIP-_4_.png" width="42" height="38" alt="Museo"/>
+            <span>Museo Textil de Oaxaca</span>
+        </div>
+    </div>
+    
+    <p class="TEXTO-DERECHA"><span>&copy; Jonathan Martínez López</span></p>
+</footer>
+
+</body>
+</html>

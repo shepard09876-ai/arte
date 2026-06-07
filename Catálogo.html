@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CATÁLOGO</title>
+<style type="text/css">
+	nav {
+    display: flex;           /* Convierte el menú en un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente todos los botones */
+    gap: 15px;               /* Opcional: crea una separación uniforme entre cada botón sin usar espacios raros */
+    width: 100%;             /* Asegura que abarque todo el ancho disponible */
+    position: absolute;      /* Mantiene el flujo de tu diseño absoluto */
+    top: 20px;               /* Ajusta esta altura para separarlo del borde superior de la pantalla */
+    left: 0;
+}
+.INICIO {
+    background-color: #00FF93;
+}
+.HISTORIA {
+    background-color: #00FF93;
+}
+.SIMBOLOGIA {
+    background-color: #00FF93;
+}
+.CATÁLOGO {
+    background-color: #00FF93;
+}
+.CONTACTANOS {
+    background-color: #00FF93;
+}
+.TITULO {
+    position: absolute;
+    left: 465px;
+    top: 48px;
+    height: 57px;
+}
+/* CORRECCIÓN AQUÍ: Posicionamos el pie de página abajo de todo el contenido */
+.PIE-DE-PÁGINA {
+    background-color: #FF01DE;
+    position: absolute;
+    left: 16px;
+    top: 1300px;
+    width: 1002px;
+}
+.IMA-CATA {
+    position: absolute;
+    left: 16px;
+    top: 126px;
+    height: 1667px;
+    width: 1002px;
+}
+.FIGU-1 {
+    position: absolute;
+    left: 9px;
+    top: 7px;
+    width: 230px;
+    height: 142px;
+}
+.FIG-2 {
+    position: absolute;
+    left: 256px;
+    top: 7px;
+    height: 141px;
+    width: 230px;
+}
+.FIGU-4 {
+    position: absolute;
+    left: 765px;
+    top: 133px;
+    height: 145px;
+    width: 231px;
+}
+.FIGU-5 {
+    position: absolute;
+    left: 519px;
+    top: 133px;
+    height: 143px;
+    width: 215px;
+}
+.FIGU-6 {
+    position: absolute;
+    left: 273px;
+    top: 422px;
+    width: 225px;
+    height: 145px;
+}
+.TEXT-1 {
+    position: absolute;
+    width: 222px;
+    left: 26px;
+    top: 286px;
+    height: 103px;
+}
+.TEXT-2 {
+    position: absolute;
+    left: 272px;
+    top: 302px;
+    width: 231px;
+}
+.FIGU-7 {
+    position: absolute;
+    left: 517px;
+    top: 423px;
+    height: 144px;
+    width: 221px;
+}
+.FIGU-8 {
+    position: absolute;
+    width: 228px;
+    left: 753px;
+    top: 423px;
+    height: 140px;
+}
+.TEXT-7 {
+    position: absolute;
+    height: 85px;
+    left: 516px;
+    top: 581px;
+    width: 227px;
+}
+.TEXT-4 {
+    position: absolute;
+    left: 774px;
+    top: 298px;
+    height: 85px;
+    width: 220px;
+}
+.TEXT-5 {
+    position: absolute;
+    left: 522px;
+    top: 299px;
+    height: 76px;
+    width: 225px;
+}
+.TEXT-6 {
+    position: absolute;
+    left: 273px;
+    top: 590px;
+    width: 225px;
+    height: 70px;
+}
+.TEXT-8 {
+    position: absolute;
+    left: 759px;
+    top: 577px;
+    width: 225px;
+}
+.FIGU-9 {
+    position: absolute;
+    left: 24px;
+    top: 421px;
+    width: 228px;
+    height: 146px;
+}
+.FIGU-11 {
+    position: absolute;
+    left: 518px;
+    top: 689px;
+    width: 231px;
+    height: 141px;
+}
+.FIGU-12 {
+    position: absolute;
+    left: 763px;
+    top: 690px;
+    width: 230px;
+    height: 145px;
+}
+.FIGU-13 {
+    position: absolute;
+    left: 32px;
+    top: 688px;
+    width: 221px;
+    height: 145px;
+}
+.FIGU-15 {
+    position: absolute;
+    left: 520px;
+    top: 980px;
+    width: 230px;
+    height: 144px;
+}
+.FIGU-16 {
+    position: absolute;
+    left: 771px;
+    top: 981px;
+    width: 215px;
+    height: 136px;
+}
+.TEXT-9 {
+    position: absolute;
+    left: 29px;
+    top: 584px;
+    width: 222px;
+}
+.TEXT-11 {
+    position: absolute;
+    height: 97px;
+    width: 230px;
+    top: 836px;
+    left: 519px;
+}
+.TEXT-12 {
+    position: absolute;
+    width: 227px;
+    left: 764px;
+    top: 840px;
+}
+.TEXT-13 {
+    position: absolute;
+    height: 125px;
+    left: 31px;
+    top: 843px;
+    width: 226px;
+}
+.TEXT-14 {
+    position: absolute;
+    height: 103px;
+    width: 227px;
+    left: 274px;
+    top: 840px;
+}
+.TEXT-15 {
+    position: absolute;
+    height: 91px;
+    width: 227px;
+    left: 524px;
+    top: 1157px;
+}
+.TEXT-16 {
+    position: absolute;
+    left: 757px;
+    top: 1031px;
+    height: 106px;
+    width: 226px;
+}
+.TEXT-18 {
+    position: absolute;
+    width: 232px;
+    height: 84px;
+    left: 270px;
+    top: 1161px;
+}
+.FIGU-14 {
+    position: absolute;
+    left: 273px;
+    top: 689px;
+    width: 229px;
+    height: 146px;
+}
+.TEXT-19 {
+    position: absolute;
+    width: 225px;
+    left: 33px;
+    top: 1164px;
+}
+.FIGU-13- {
+    position: absolute;
+    left: 32px;
+    top: 983px;
+    height: 136px;
+    width: 217px;
+}
+.FIGU-14- {
+    position: absolute;
+    left: 278px;
+    top: 982px;
+    width: 226px;
+    height: 136px;
+}
+</style>
+</head>
+
+<body bgcolor="#FFF3A4">
+<nav>
+  <a href="Index.html"><input type="button" class="INICIO" value="INICIO"></a>
+    <a href="Historia.html"><input type="button" class="HISTORIA" value="HISTORIA"></a>
+    <a href="Simbologia.html"><input type="button" class="SIMBOLOGIA" value="SIMBOLOGIA"></a>
+    <a href="Catálogo.html"><input type="button" class="CATÁLOGO" value="CATÁLOGO"></a><a href="Contactanos.html">
+    <input type="button" class="CONTACTANOS" value="CONTACTANOS">
+    </a></nav>
+
+<div class="TITULO"><h1>COLECCIONES</h1></div>
+
+<div class="TEXT-4" style="text-align: justify;">Morral de uso cotidiano en color rojo y negro con figuras como el venado y estrella de 6 puntas</div>
+
+<div class="IMA-CATA">
+  <div class="FIGU-1"><img src="imagen/MOCHILA.jpg" width="228" height="143" alt=""/></div>
+    <div class="FIG-2"><img src="imagen/GORRA.jpg" width="228" height="143" alt=""/></div>
+    <div class="TEXT-16" style="text-align: justify;">Una funda para el celular en un tono negro con líneas verdes, complementado con principalmente la figura de la mariposa de Chicahuaxtla en todo el tejido</div>
+</div>
+
+<div class="FIGU-4"><img src="imagen/MORRALITO.jpeg" width="228" height="143" alt=""/></div>
+
+<div class="TEXT-5" style="text-align: justify;">Funda para laptop en color rojo con figuras como mariposas, patos, figuras de personas, siendo estas las más modernas</div>
+
+<div class="FIGU-6"><img src="imagen/EMSaD69.jpg" width="228" height="143" alt=""/></div>
+<div class="TEXT-7" style="text-align: justify;"> Bolsa cruzada de un color morado oscuro intenso con figuras como la mariposa de escalera a partir de un telar de cintura</div>
+
+<div class="TEXT-19" style="text-align: justify;">Lapicera en color rojo con figuras como la mariposa en forma de X y cola de pescado</div>
+
+<div class="TEXT-11" style="text-align: justify;">Una bolsa hecha a partir de un telar de cintura para el celular de un color rojo-rosado de hombro cruzado con figuras como es la mariposa de Chicahuaxtla en forma de serpiente</div>
+<div class="TEXT-12" style="text-align: justify;"> Morral de hombro cruzado en color verde oliva y negro que está acompañado de figuras como el venado y romboides</div>
+<div class="TEXT-14" style="text-align: justify;">Bolsa de mano a partir de un telar de cintura en un tono rojo siendo complementado con principalmente la figura de la mariposa de Chicahuaxtla en diferentes colores</div>
+<div class="TEXT-15" style="text-align: justify;">Bufanda hecha a partir de un telar de cintura en un color negro acompañado del logotipo del Cecyte EMSaD 69</div>
+
+<div class="FIGU-19"></div>
+<div class="TEXT-18" style="text-align: justify;">Bolsa cruzada en color café con tiras de telar de cintura acompañado principalmente de la figura de mariposa de Chicahuaxtla</div>
+
+<div class="TEXT-2" style="text-align: justify;">Gorra en un color negro con el logo de la escuela, al igual que el lugar en donde se encuentra la institución</div>
+<div class="FIGU-8"><img src="imagen/VOLANTE.jpeg" width="228" height="143" alt=""/></div>
+<div class="TEXT-13" style="text-align: justify;">Funda para laptop hecha a partir de un telar de cintura en color negro con líneas azules siendo acompañado principalmente por la figura de mariposa de Chicahuaxtla en todo el tejido</div>
+
+<div class="TEXT-6" style="text-align: justify;">Funda para laptop de un color rojo, acompañado de figuras como de mariposas de Chicahuaxtla</div>
+<div class="FIGU-9"><img src="imagen/ESCALERA.jpeg" width="228" height="143" alt=""/></div>
+<div class="FIGU-12"><img src="imagen/VENADO.jpg" width="228" height="143" alt=""/></div>
+<div class="FIGU-15"><img src="imagen/CUELLO.jpg" width="228" height="143" alt=""/></div>
+
+<div class="FIGU-5"><img src="imagen/PATO.jpg" width="228" height="143" alt=""/></div>
+
+<div class="TEXT-1" style="text-align: justify;">
+  <p>Mochila de espalda con un tirante de telar con figuras originales como el pescado </p>
+</div>
+<div class="FIGU-14"><img src="imagen/BOLSA-DE-MANO.jpeg" width="228" height="146" alt=""/></div>
+<div class="FIGU-16"><img src="imagen/DISEÑO.jpeg" width="228" height="143" alt=""/></div>
+
+<div class="FIGU-7"><img src="imagen/MORADO.jpeg" width="228" height="143" alt=""/></div>
+<div class="TEXT-8" style="text-align: justify;">Tirante que está adornando el contorno de todo el volante siendo de un color rojo acompañado de figuras como la mariposa de Chicahuaxtla, cola de pescado</div>
+<div class="FIGU-13"><img src="imagen/LAPTOP.jpeg" width="228" height="142" alt=""/></div>
+
+<div class="FIGU-11"><img src="imagen/BOLSA-CELULAR.jpg" width="228" height="143" alt=""/></div>
+
+<div class="TEXT-9" style="text-align: justify;">Lapicera a partir de un telar de cintura en color rojo intenso acompañado de figuras como mariposa de escalera y pájaros</div>
+
+<div class="FIGU-18"></div>
+
+<footer class="PIE-DE-PÁGINA">
+  <p class="TEXTO-CENTRADO">CONSULTANOS</p>
+  
+  <div class="CONTENEDOR-CONTACTO">
+    
+    <div class="ITEM-CONTACTO">
+      <img src="imagen/OIP-_2_.png" width="39" height="30" alt="Facebook"/>
+      <span>Cecyteo Emsad Itunyoso</span>
+    </div>
+
+    <div class="ITEM-CONTACTO">
+      <img src="imagen/OIP-_3_.png" width="39" height="28" alt="Teléfono"/>
+      <span>953 114 3443</span>
+    </div>
+
+    <div class="ITEM-CONTACTO">
+      <p><img src="imagen/OIP-_4_.png" width="39" height="28" alt="Museo"/>
+        <span>Museo Textil de Oaxaca </span></p>
+      <p style="text-align: right; width: 100%; display: block; margin: 0; padding-right: 20px; box-sizing: border-box;">
+    <span>&copy; Jonathan Martínez López</span>
+</p>
+    </div>
+  </div>
+</footer>
+<div class="FIGU-13-"><img src="imagen/LAPICERA.jpg" width="228" height="133" alt=""/></div>
+<div class="FIGU-14-"><img src="imagen/BOLSITA.jpg" width="228" height="143" alt=""/></div>
+</body>
+</html>
